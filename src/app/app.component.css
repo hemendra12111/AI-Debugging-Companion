@@ -1,0 +1,13 @@
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 10px;
+  height: 100vh;
+}
+
+.panel {
+  border: 1px solid #ccc;
+  padding: 10px;
+  overflow: auto;
+}
